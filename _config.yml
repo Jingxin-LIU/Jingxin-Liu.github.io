@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Jingxin Liu's Personal Webpage # the website title (if blank, full name will be used instead)
+title: Jingxin Liu (刘净心) # the website title (if blank, full name will be used instead)
 first_name: Jingxin
 middle_name: 
 last_name: LIU
@@ -116,7 +116,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: Jingxin-Liu # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
