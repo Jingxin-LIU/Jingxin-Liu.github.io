@@ -19,7 +19,7 @@
       {% include newsletter.liquid %}
     {% endif %}
 
-    <div class="container">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
       <span>&copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. </span>
       <span>{{ site.footer_text }} </span>
       {% if site.impressum_path %}
