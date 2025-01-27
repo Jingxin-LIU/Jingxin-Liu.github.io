@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Jingxin LIU # the website title (if blank, full name will be used instead)
 first_name: Jingxin
 middle_name: 
 last_name: LIU
@@ -18,7 +18,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🐍 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://Jingxin-Liu.github.io # the base hostname & protocol for your site
+url: 'https://Jingxin-Liu.github.io' # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -49,7 +49,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 bib_search: true
@@ -275,8 +275,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Liu, Liu*, Liu<sup>†</sup>]
+  first_name: [Jingxin]
 
   style: apa
   locale: en
