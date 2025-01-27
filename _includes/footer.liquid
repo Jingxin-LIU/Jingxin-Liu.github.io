@@ -20,15 +20,13 @@
     {% endif %}
 
     <div class="container">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
+      <span>&copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. </span>
+      <span>{{ site.footer_text }} </span>
       {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        <span><a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.</span>
       {% endif %}
       {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        <span>Last updated: {{ 'now' | date: '%B %d, %Y' }}.</span>
       {% endif %}
     </div>
   </footer>
