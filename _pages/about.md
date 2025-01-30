@@ -12,7 +12,7 @@ social:
   - [HomePage@XJTLU, "https://scholar.xjtlu.edu.cn/en/persons/JingxinLiu"]
 
 profile:
-  image: /assets/images/JingxinLiu.png # Ensure this path is correct
+  image: /assets/img/JingxinLiu.png # Ensure this path is correct
   align: right
 
 news:

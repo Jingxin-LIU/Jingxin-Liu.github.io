@@ -2,59 +2,44 @@
 layout: default
 title: About
 permalink: /
-
 ---
 
 <div class="container">
   <div class="row">
     <!-- Profile Image -->
-    {% if site.profile.image %}
-      <div class="col-md-4 text-center">
-        <img src="{{ site.baseurl }}/assets/img/{{ site.profile.image }}" class="img-fluid rounded-circle" alt="{{ site.first_name }} {{ site.last_name }}">
-      </div>
-    {% endif %}
+    <div class="col-md-3">
+      {% if page.profile.image %}
+        <img style="width: 120px;float: left;" src="{{ page.profile.image | relative_url }}" class="img-fluid rounded-circle">
+      {% endif %}
+    <\div>
 
     <!-- About Section -->
     <div class="col-md-8">
-      <h1>{{ site.first_name }} {{ site.last_name }} {% if site.chinese_name %}({{ site.chinese_name }}){% endif %}</h1>
-      <h3>{{ site.position }}</h3>
-      <h4>{{ site.affiliation }}</h4>
+      <h1>{{ page.title }}</h1>
+      <h3>{{ page.position }}</h3>
 
       <!-- Contact and Social Links -->
-      <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       <p>
-        {% if site.social.google_scholar %}
-          <a href="{{ site.social.google_scholar }}" target="_blank">Google Scholar</a> |
-        {% endif %}
-        {% if site.social.github %}
-          <a href="{{ site.social.github }}" target="_blank">GitHub</a> |
-        {% endif %}
-        {% if site.social.homepage %}
-          <a href="{{ site.social.homepage }}" target="_blank">HomePage@XJTLU</a>
+        {% if page.social %}
+          {% for link in page.social %}
+            <a href="{{ link[1] }}" target="_blank">{{ link[0] }}</a> {% unless forloop.last %} | {% endunless %}
+          {% endfor %}
         {% endif %}
       </p>
 
-      <p>{{ site.description }}</p>
+      <p>{{ content }}</p>
     </div>
   </div>
 
   <hr>
 
-  <!-- Research Interests -->
-  <div class="row">
-    <div class="col-12">
-      <h2>Research Interests</h2>
-      <p>{{ site.research_interests }}</p>
-    </div>
-  </div>
-
   <!-- News Section -->
-  {% if site.news %}
+  {% if page.news %}
   <div class="row">
     <div class="col-12">
       <h2>News</h2>
       <ul>
-        {% for item in site.news %}
+        {% for item in page.news %}
           <li>{{ item.date | date: "%B %d, %Y" }} - {{ item.content }}</li>
         {% endfor %}
       </ul>
@@ -63,12 +48,12 @@ permalink: /
   {% endif %}
 
   <!-- Selected Publications -->
-  {% if site.selected_papers %}
+  {% if page.selected_papers %}
   <div class="row">
     <div class="col-12">
       <h2>Selected Publications</h2>
       <ul>
-        {% for paper in site.papers %}
+        {% for paper in page.papers %}
           {% if paper.selected %}
             <li><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a> - {{ paper.authors }} ({{ paper.year }})</li>
           {% endif %}
