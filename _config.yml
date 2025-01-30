@@ -9,10 +9,6 @@ last_name: LIU
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am currently an associate professor in the School of AI and Advanced Computing, <a href="https://www.xjtlu.edu.cn/">Xi'an Jiaotong-Liverpool University</a>. I received my
-  Ph.D from the Universtiy of Nottingham, under the supervision of <a href="https://www.nottingham.edu.cn/en/about/university-leadership/university-leadership.aspx">Prof. Guoping Qiu</a> in 2018. I received my M.Sc degree from the University of Edinburgh in 2013. My main research interests include Digital Pathology, Computational Pathology, and Image Processing with the intersection of Computer Vision and Machine Learning.
-
 
 footer_text: >
   A Pure Mind Leads The Way.
