@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-fullname: Jingxin Liu (刘净心)
+
 permalink: /
 position: >
   <p>Associate Professor<br>School of AI and Advanced Computing<br>Xi’an Jiaotong-Liverpool University</p>
@@ -13,6 +13,7 @@ social:
   - [HomePage@XJTLU, "https://scholar.xjtlu.edu.cn/en/persons/JingxinLiu"]
 
 profile:
+  fullname: Jingxin LIU (刘净心)
   image: /assets/img/JingxinLiu.png # Ensure this path is correct
   align: left
 

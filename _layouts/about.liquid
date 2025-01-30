@@ -7,15 +7,15 @@ permalink: /
 <div class="container">
   <div class="row">
     <!-- Profile Image -->
-    <div class="col-md-5">
+    <div class="col-md-3">
       {% if page.profile.image %}
         <img style="width: 120px; float: left;" src="{{ page.profile.image | relative_url }}" class="img-fluid rounded-circle">
       {% endif %}
     </div>
 
     <!-- About Section -->
-    <div class="col-md-5">
-      <h1>{{ page.name }}</h1>
+    <div class="col-md-12">
+      <h1>{{ page.profile.fullname }}</h1>
       <h3>{{ page.position }}</h3>
 
       <!-- Contact and Social Links -->
