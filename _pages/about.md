@@ -17,7 +17,11 @@ profile:
   image: /assets/img/JingxinLiu.png # Ensure this path is correct
   align: left
 
-news: true # Include news subpage section
+announcements: 
+  enabled: true # Include news subpage section
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 6 # leave blank to include all the news in the `_news` folder
+
 
 selected_papers: false # Include selected publications section
 
