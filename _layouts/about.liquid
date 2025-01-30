@@ -7,27 +7,21 @@ layout: default
     <div class="row">
         <div class="col-sm-3">
             {% if page.profile.image %}
-            <img style="width: 120px; float: left; border-radius: 50%;" 
-            src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}"
-            alt="Profile Image">
+              <img style="width: 170px;border-radius: 170px" 
+              src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
             {% endif %}
         </div>
     
         <div class="col-sm-9">
-            <h1 class="post-title font-weight-bold">
-                {% if site.title == "blank" %}
-                    <span class="font-weight-bold">{{ site.first_name }}</span> 
-                    {{ site.middle_name }} {{ site.last_name }}
-                {% else %}
-                    {{ site.title }}
-                {% endif %}
+            <h1 class="post-title">
+            {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
             </h1>
-
-            <!-- Render position with multi-line HTML support -->
-            <p class="position">{{ page.position | markdownify }}</p>
-
-            <!-- Render social links with HTML support -->
-            <p class="social">{{ page.social | markdownify }}</p>    
+            <p class="desc">{{ page.description }}</p>
+            <div class="social">
+                <div class="contact-icons">
+                {% include social.html %}
+                </div>
+            </div>
    
         </div>
     </div>
