@@ -1,26 +1,80 @@
 ---
 layout: default
+title: About
+permalink: /
+
 ---
 
-<div class="post">
+<div class="container">
+  <div class="row">
+    <!-- Profile Image -->
+    {% if site.profile.image %}
+      <div class="col-md-4 text-center">
+        <img src="{{ site.baseurl }}/assets/img/{{ site.profile.image }}" class="img-fluid rounded-circle" alt="{{ site.first_name }} {{ site.last_name }}">
+      </div>
+    {% endif %}
 
+    <!-- About Section -->
+    <div class="col-md-8">
+      <h1>{{ site.first_name }} {{ site.last_name }} {% if site.chinese_name %}({{ site.chinese_name }}){% endif %}</h1>
+      <h3>{{ site.position }}</h3>
+      <h4>{{ site.affiliation }}</h4>
 
-  <article>
-    <div class="row">
-        <div class="col-sm-3">
-            {% if page.profile.image %}
-            <img style="width: 170px;border-radius: 170px" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
-            {% endif %}
-        </div>
-    
-        <div class="col-sm-9">
-            <h1 class="post-title">
-            {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
-            </h1>
-            <p class="position">{{ page.position }}</p>
-   
-        </div>
+      <!-- Contact and Social Links -->
+      <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p>
+        {% if site.social.google_scholar %}
+          <a href="{{ site.social.google_scholar }}" target="_blank">Google Scholar</a> |
+        {% endif %}
+        {% if site.social.github %}
+          <a href="{{ site.social.github }}" target="_blank">GitHub</a> |
+        {% endif %}
+        {% if site.social.homepage %}
+          <a href="{{ site.social.homepage }}" target="_blank">HomePage@XJTLU</a>
+        {% endif %}
+      </p>
+
+      <p>{{ site.description }}</p>
     </div>
+  </div>
 
+  <hr>
 
+  <!-- Research Interests -->
+  <div class="row">
+    <div class="col-12">
+      <h2>Research Interests</h2>
+      <p>{{ site.research_interests }}</p>
+    </div>
+  </div>
+
+  <!-- News Section -->
+  {% if site.news %}
+  <div class="row">
+    <div class="col-12">
+      <h2>News</h2>
+      <ul>
+        {% for item in site.news %}
+          <li>{{ item.date | date: "%B %d, %Y" }} - {{ item.content }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Selected Publications -->
+  {% if site.selected_papers %}
+  <div class="row">
+    <div class="col-12">
+      <h2>Selected Publications</h2>
+      <ul>
+        {% for paper in site.papers %}
+          {% if paper.selected %}
+            <li><a href="{{ paper.link }}" target="_blank">{{ paper.title }}</a> - {{ paper.authors }} ({{ paper.year }})</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endif %}
 </div>

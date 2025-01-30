@@ -3,26 +3,28 @@ layout: about
 title: About
 permalink: /
 position: >
-<p>Associate Professor<br>School of AI and Advanced Computing<br>Xi’an Jiaotong-Liverpool University</p>
+  <p>Associate Professor<br>School of AI and Advanced Computing<br>Xi’an Jiaotong-Liverpool University</p>
 
-social: >
-Email (Jingxin.Liu AT xjtlu.edu.cn)  / <a target="_blank" href="https://scholar.google.com/citations?user=C0X90VsAAAAJ&hl=en">Google Scholar</a> / <a target="_blank" href="https://github.com/Jingxin-LIU">Github</a>  / <a target="_blank" href="https://scholar.xjtlu.edu.cn/en/persons/JingxinLiu">HomePage@XJTLU</a>
-
-
+social:
+  - [Email (Jingxin.Liu AT xjtlu.edu.cn), "mailto:Jingxin.Liu@xjtlu.edu.cn"]
+  - [Google Scholar, "https://scholar.google.com/citations?user=C0X90VsAAAAJ&hl=en"]
+  - [Github, "https://github.com/Jingxin-LIU"]
+  - [HomePage@XJTLU, "https://scholar.xjtlu.edu.cn/en/persons/JingxinLiu"]
 
 profile:
+  image: /assets/images/JingxinLiu.png # Ensure this path is correct
   align: right
-  image: JingxinLiu.png
 
+news:
+  - date: "2024-12-01"
+    content: "Presented a keynote talk on Generative AI in Digital Pathology at ICML 2024."
+  - date: "2024-11-15"
+    content: "Received the Best Paper Award at CVPR 2024."
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-
+selected_papers: false # Include selected publications section
 
 ---
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently an Associate Professor in the **School of AI and Advanced Computing** at [Xi’an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/). I received my Ph.D. from the **University of Nottingham** under the supervision of [Prof. Guoping Qiu](https://www.nottingham.edu.cn/en/about/university-leadership/university-leadership.aspx) in 2018. Before that, I earned my **M.Sc. degree from the University of Edinburgh** in 2013.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+My main research interests include **Digital Pathology, Computational Pathology, and Image Processing**, with a strong intersection in **Computer Vision and Machine Learning**.
