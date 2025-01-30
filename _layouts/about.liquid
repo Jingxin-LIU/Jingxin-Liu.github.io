@@ -9,13 +9,13 @@ permalink: /
     <!-- Profile Image -->
     <div class="col-md-3">
       {% if page.profile.image %}
-        <img style="width: 120px; float: left;" src="{{ page.profile.image | relative_url }}" class="img-fluid rounded-circle">
+        <img style="width: 170px; float: left;" src="{{ page.profile.image | relative_url }}" class="img-fluid">
       {% endif %}
     </div>
 
     <!-- About Section -->
-    <div class="col-md-10">
-      <h1>{{ page.profile.fullname }}</h1>
+    <div class="col-md-9">
+      <h2>{{ page.profile.fullname }}</h2>
       <h3>{{ page.position }}</h3>
 
       <!-- Contact and Social Links -->
@@ -34,17 +34,11 @@ permalink: /
   <hr>
 
   <!-- News Section -->
-  {% if page.news %}
-  <div class="row">
-    <div class="col-12">
-      <h2>News</h2>
-      <ul>
-        {% for item in page.news %}
-          <li>{{ item.date | date: "%B %d, %Y" }} - {{ item.content }}</li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+  {% if page.news and page.news.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
   {% endif %}
 
   <!-- Selected Publications -->

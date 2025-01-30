@@ -17,11 +17,7 @@ profile:
   image: /assets/img/JingxinLiu.png # Ensure this path is correct
   align: left
 
-news:
-  - date: "2024-12-01"
-    content: ""
-  - date: "2024-11-15"
-    content: ""
+news: true # Include news subpage section
 
 selected_papers: false # Include selected publications section
 
