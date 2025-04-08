@@ -1,5 +1,6 @@
 ---
 layout: page
+exclude: true
 title: submenus
 nav: true
 nav_order: 8
