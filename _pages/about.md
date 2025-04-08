@@ -1,8 +1,7 @@
 ---
 layout: about
 title: About
-
-permalink: /
+permalink: /about/
 position: >
   <p>Associate Professor<br>School of AI and Advanced Computing<br>Xi’an Jiaotong-Liverpool University</p>
 

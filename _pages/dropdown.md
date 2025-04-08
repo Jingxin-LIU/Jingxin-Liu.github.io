@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /
 title: submenus
 nav: true
 nav_order: 8
