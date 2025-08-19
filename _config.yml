@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Notes # blog_name will be displayed in your blog page
+blog_name: Emply Space # blog_name will be displayed in your blog page
 blog_description: A thoughtful space for sharing insights, experiences, and ideas
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -182,6 +182,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
