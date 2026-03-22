@@ -1,0 +1,23 @@
+- label: "GitHub"
+  url: "https://github.com/Jingxin-Liu"
+  icon: "github"
+
+- label: "Google Scholar"
+  url: "https://scholar.google.com/citations?user=YOUR_ID"
+  icon: "google-scholar"
+
+- label: "ORCID"
+  url: "https://orcid.org/0000-0001-XXXX-XXXX"
+  icon: "orcid"
+
+- label: "LinkedIn"
+  url: "https://linkedin.com/in/your-profile"
+  icon: "linkedin"
+
+- label: "ResearchGate"
+  url: "https://www.researchgate.net/profile/Jingxin-Liu"
+  icon: "researchgate"
+
+- label: "Email"
+  url: "mailto:your-email@university.edu"
+  icon: "envelope"

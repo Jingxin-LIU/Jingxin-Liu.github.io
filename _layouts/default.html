@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}">
+    <meta name="author" content="{{ site.author }}">
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {% seo %}
+
+    {% if site.github.is_project_page %}
+      <link rel="canonical" href="{{ site.github.repository_url }}">
+    {% endif %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <p class="header-subtitle">{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.github.avatar_url %}
+          <img src="{{ site.github.avatar_url }}" alt="Profile Picture" class="profile-pic">
+        {% endif %}
+
+        <ul class="header-nav">
+          {% for page in site.header_pages %}
+            {% assign page_obj = site.pages | where: "path", page | first %}
+            {% if page_obj %}
+              <li><a href="{{ page_obj.url | relative_url }}">{{ page_obj.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+        {% if site.data.social_links %}
+          <div class="social-links">
+            {% for link in site.data.social_links %}
+              <a href="{{ link.url }}" title="{{ link.label }}">{{ link.label }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+
+      <footer>
+        <p><small>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</small></p>
+        <p><small>Theme: <a href="https://github.com/pages-themes/minimal">Minimal</a> (Modified for Academic Profile)</small></p>
+      </footer>
+    </div>
+  </body>
+</html>
