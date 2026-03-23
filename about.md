@@ -9,7 +9,8 @@ I received my Ph.D. in Computer Science from [University of Nottingham](https://
 
 ## Current Position
 
-**Associate Professor**, School of AI and Advanced Computing  
+**Associate Professor**, School of AI and Advanced Computing
+
 [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/)
 
 At XJTLU, I teach and conduct research in:
@@ -22,7 +23,7 @@ At XJTLU, I teach and conduct research in:
 My research is driven by the goal of developing practical AI solutions for healthcare. I believe in bridging the gap between cutting-edge machine learning research and real-world clinical applications. My work focuses on three core areas:
 
 1. **Digital Pathology** - Making sense of gigapixel histopathological images
-2. **Computational Pathology** - Building intelligent diagnostic support systems
+2. **Computational Pathology** - Building intelligent diagnostic support systems  
 3. **Computer Vision** - Developing novel algorithms for medical image analysis
 
 ## International Collaborations

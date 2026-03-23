@@ -45,7 +45,8 @@ Exploring weakly supervised learning frameworks that can learn from limited labe
 
 ## Interested in Our Work?
 
-**Collaboration opportunities:** Academic partnerships, industry collaborations, and clinical validation studies  
+**Collaboration opportunities:** Academic partnerships, industry collaborations, and clinical validation studies
+
 **Student recruitment:** PhD positions and postdoctoral fellowships available
 
 [Get in touch →](mailto:jingxin.liu@xjtlu.edu.cn)
