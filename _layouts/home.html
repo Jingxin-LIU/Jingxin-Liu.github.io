@@ -43,7 +43,7 @@
         <div class="title">{{ site.author_title | default: 'Associate Professor' }}</div>
         <div class="title">{{ site.author_institution | default: 'Xi''an Jiaotong-Liverpool University' }}</div>
         <div class="contact">
-          📧 <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          📧 {{ site.email | replace: '@', '[at]' }}
         </div>
         <div class="sidebar-links">
           <a href="https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID" target="_blank">Google Scholar</a>

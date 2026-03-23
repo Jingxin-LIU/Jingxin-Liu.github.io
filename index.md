@@ -3,15 +3,9 @@ layout: home
 title: Home
 ---
 
-## About
+I am an **Associate Professor** in the School of AI and Advanced Computing at [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/) (XJTLU). My main research interests include **Digital Pathology** & Computational Pathology, **Medical Image Analysis** & Computer Vision, and **Deep Learning** for Healthcare AI.
 
-I am an **Associate Professor** in the School of AI and Advanced Computing at [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/) (XJTLU). My main research interests include:
-
-- **Digital Pathology** & Computational Pathology
-- **Medical Image Analysis** & Computer Vision
-- **Deep Learning** for Healthcare AI
-
-I am known for my research in automated cancer detection, histopathological image analysis, and biomedical image processing. Before joining XJTLU, I received my Ph.D. in Computer Science from University of Nottingham in 2018, advised by Prof. Guoping Qiu.
+Before joining XJTLU, I received my Ph.D. in Computer Science from University of Nottingham in 2018, advised by Prof. Guoping Qiu, and my M.Sc in Signal Processing and Communications from University of Edinburgh in 2013.
 
 ## Latest News
 
@@ -55,28 +49,14 @@ I am known for my research in automated cancer detection, histopathological imag
 
 <div class="vibe-highlight">
   <strong>👥 Vision Intelligence & Biomedical Exploration Lab</strong><br>
-  I am founding and leading VIBE Lab at XJTLU, dedicated to advancing research in digital pathology, computational medicine, and AI applications in healthcare. We are actively recruiting PhD students and postdoctoral researchers. <a href="{{ site.vibe_lab.url }}" target="_blank">→ Learn more</a>
+  I am founding and leading VIBE Lab at XJTLU, dedicated to advancing research in digital pathology, computational medicine, and AI applications in healthcare. We are actively recruiting PhD students. <a href="{{ site.vibe_lab.url }}" target="_blank">→ Learn more</a>
 </div>
 
-## Featured Research
-
-### Automated Prostate Cancer Grading
-
-Deep learning methods for automated Gleason score prediction in histopathological images. This work addresses the challenge of cancer grading standardization and improves diagnostic reproducibility.
-
-**Featured Publication:** [Prostate Cancer Grading with Deep Learning](https://scholar.google.com/citations?user=YOUR_ID) 
-
-### Deep Learning for Cancer Detection
-
-Multi-scale approaches to cancer detection from whole-slide histopathology images using attention-based mechanisms and weakly supervised learning frameworks.
-
-**Related Work:** Deep learning architectures bridging the gap between gigapixel image analysis and clinical practice.
 
 ## Collaboration & Recruiting
 
 I am looking for:
 - **PhD Students** (self-motivated, strong background in computer science or related fields)
-- **Postdoctoral Researchers** (experience with deep learning and medical imaging preferred)
-- **Research Collaborators** from academic institutions and industry partners
+- **Research Collaborators** from academic institutions, medical Institutions and industry partners
 
-If interested in joining our research group or collaborating on projects, please [get in touch](mailto:{{ site.email }})
+If interested in joining our research group or collaborating on projects, please get in touch
