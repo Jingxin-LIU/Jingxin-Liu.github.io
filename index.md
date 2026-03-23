@@ -3,9 +3,10 @@ layout: home
 title: Home
 ---
 
-I am an **Associate Professor** in the School of AI and Advanced Computing at [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/) (XJTLU). My main research interests include **Digital Pathology** & Computational Pathology, **Medical Image Analysis** & Computer Vision, and **Deep Learning** for Healthcare AI.
+I am an Associate Professor in the School of AI and Advanced Computing at [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/) (XJTLU). My main research interests include Digital Pathology & Computational Pathology, Medical Image Analysis & Computer Vision, and Deep Learning for Healthcare AI.
 
-Before joining XJTLU, I received my Ph.D. in Computer Science from University of Nottingham in 2018, advised by Prof. Guoping Qiu, and my M.Sc in Signal Processing and Communications from University of Edinburgh in 2013.
+Before joining XJTLU, I received my Ph.D. in Computer Science from University of Nottingham in 2018, and my M.Sc in Signal Processing and Communications from University of Edinburgh in 2013.
+
 
 ## Latest News
 
@@ -27,6 +28,7 @@ Before joining XJTLU, I received my Ph.D. in Computer Science from University of
     <span class="news-content">Published on deep learning for cancer grading</span>
   </li>
 </ul>
+
 
 ## Research Interests
 
