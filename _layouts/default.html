@@ -9,11 +9,7 @@
     <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}">
     <meta name="author" content="{{ site.author }}">
     
-    <link rel="stylesheet" href="{{ '/assets/css/modern-style.css' | relative_url }}">
-    
-    <!-- Leaflet Map Library for visitor geolocation -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     
     {% seo %}
 
@@ -34,7 +30,7 @@
             {% endif %}
           {% endfor %}
           {% if site.vibe_lab %}
-            <li><a href="{{ site.vibe_lab.url }}" target="_blank">VIBE Lab</a></li>
+            <li><a href="{{ site.vibe_lab.url }}" target="_blank">{{ site.vibe_lab.name }}</a></li>
           {% endif %}
         </ul>
       </div>
@@ -43,37 +39,18 @@
     <!-- Main Content -->
     <main>
       {{ content }}
-
-      <!-- Visitor Map Section -->
-      {% if page.show_map != false %}
-      <div id="visitor-map-container">
-        <h3>🌍 Visitor Locations</h3>
-        <div id="visitor-map" style="width: 100%; height: 300px; border-radius: 8px;"></div>
-      </div>
-      {% endif %}
     </main>
 
     <!-- Footer -->
     <footer>
-      <div class="footer-content">
-        <div class="footer-section">
-          <ul class="footer-links">
-            {% if site.data.social_links %}
-              {% for link in site.data.social_links %}
-              <li><a href="{{ link.url }}" title="{{ link.label }}">{{ link.label }}</a></li>
-              {% endfor %}
-            {% endif %}
-          </ul>
-        </div>
-        
-        <div class="copyright">
-          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
-          <p style="font-size: 0.8rem; margin-top: 0.5rem;">Powered by <a href="https://jekyllrb.com/" style="color: inherit;">Jekyll</a></p>
-        </div>
-      </div>
+      <ul class="footer-links">
+        {% if site.data.social_links %}
+          {% for link in site.data.social_links %}
+          <li><a href="{{ link.url }}" title="{{ link.label }}" target="_blank">{{ link.label }}</a></li>
+          {% endfor %}
+        {% endif %}
+      </ul>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
     </footer>
-
-    <!-- Visitor Tracking Script -->
-    <script src="{{ '/assets/js/visitor-tracker.js' | relative_url }}"></script>
   </body>
 </html>

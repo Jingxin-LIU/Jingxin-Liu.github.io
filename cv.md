@@ -1,108 +1,29 @@
 ---
 layout: default
 title: CV
-show_map: false
 ---
 
 # Curriculum Vitae
 
-For a detailed CV, please contact me directly.
-
-## Quick Summary
+## Summary
 
 - **Associate Professor**, School of AI and Advanced Computing, Xi'an Jiaotong-Liverpool University
 - **Ph.D.** in Computer Science, University of Nottingham (2018)
+  - Advisor: Prof. Guoping Qiu
 - **M.S.** in Computer Vision, University of Edinburgh (2013)
 
 ## Research Focus
 
 - Digital Pathology & Computational Pathology
-- Medical Image Analysis
-- Computer Vision & Machine Learning
+- Medical Image Analysis & Computer Vision
+- Machine Learning & Deep Learning
 
 ## Links
 
-- [Download Full CV (PDF)](mailto:jingxin.liu@xjtlu.edu.cn?subject=CV%20Request)
-- [Google Scholar Profile](https://scholar.google.com/citations?user=YOUR_ID)
+- [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
 - [ORCID](https://orcid.org/0000-0001-XXXX-XXXX)
 - [GitHub](https://github.com/Jingxin-Liu)
 
-For more information about my background, research, and experience, please see the [About](/about.html) and [Research](/research.html) pages, or [contact me](mailto:jingxin.liu@xjtlu.edu.cn) directly.
-
-### Graduate Students Supervised
-
-- [Student Name] — [Degree] in [Field] (graduated [Year])
-- [Student Name] — [Degree] in [Field] (in progress)
-
-### Postdoctoral Researchers
-
-- [Researcher Name] — [Research Focus] ([Years])
-
 ---
 
-## Professional Service
-
-### Editorial
-
-- Editorial Board Member, *[Journal Name]*
-- Associate Editor, *[Journal Name]*
-- Reviewer for [Multiple International Journals]
-
-### Committee Service
-
-- [Committee Name], [Organization] — [Years]
-- [Committee Name], [Organization] — [Years]
-
-### Conference Organization
-
-- Program Committee, [Conference Name] — [Years]
-- Session Chair, [Conference Name] — [Year]
-
----
-
-## Awards & Recognition
-
-- [Award Name] — [Year]
-- [Fellowship Name] — [Year]
-- [Recognition/Honor] — [Year]
-
----
-
-## Presentations & Talks
-
-### Keynote Lectures
-
-- [Conference Name], [Location], [Date] — [Talk Title]
-
-### Invited Seminars
-
-- [Institution Name], [Date] — [Talk Title]
-
----
-
-## Professional Memberships
-
-- Member, [Professional Society]
-- Member, [Professional Society]
-- Senior Member, [Professional Society]
-
----
-
-## Skills
-
-- **Programming Languages:** Python, MATLAB, R, C++
-- **Deep Learning Frameworks:** PyTorch, TensorFlow
-- **Medical Imaging:** Histopathology, Microscopy, Image Analysis
-- **Statistical Analysis:** Regression, Classification, Hypothesis Testing
-
----
-
-## References
-
-Available upon request.
-
----
-
-*Last Updated: [Month Year]*
-
-**[Download CV (PDF)]** — [link to PDF version if available]
+For detailed information, please [contact me](mailto:jingxin.liu@xjtlu.edu.cn) or view my [About](/about.html) and [Research](/research.html) pages.

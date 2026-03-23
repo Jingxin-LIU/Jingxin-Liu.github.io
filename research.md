@@ -5,99 +5,51 @@ title: Research
 
 # Research Interests
 
-My research program integrates computer science, machine learning, and domain expertise in pathology to develop intelligent systems for medical image analysis and cancer diagnostics.
+## Primary Focus Areas
 
-## Main Research Areas
+**Digital Pathology & Computational Pathology**
+- Automated histopathological image analysis
+- Deep learning for digital slide interpretation
+- Diagnostic accuracy improvement through AI
 
-### 1. Deep Learning for Histopathology
+**Medical Image Analysis**
+- Feature extraction from medical images
+- Classification and segmentation algorithms
+- Multi-scale analysis approaches
 
-The primary focus is on developing deep learning methods for automated analysis of histopathological images. Key contributions include:
+**Computer Vision**
+- Convolutional neural networks for medical imaging
+- Transfer learning applications
+- Novel architecture design for pathology images
 
-- **Weakly Supervised Learning**: Developing models that can learn from limited annotations in large-scale pathology datasets
-- **Attention Mechanisms**: Incorporating attention-based architectures to identify clinically relevant regions in whole slide images
-- **Multi-instance Learning**: Addressing the challenge of analyzing gigapixel images through multiple instance learning frameworks
+## Key Research Topics
 
-### 2. Digital Pathology and Whole Slide Imaging
+- Cancer detection and grading from histopathology
+- Tissue classification and characterization
+- Whole-slide image analysis at scale
+- Attention mechanisms for interpretability
+- Domain adaptation for medical imaging
+- Weakly supervised learning
+- Multi-instance learning frameworks
 
-Digital pathology has transformed how tissue samples are analyzed. Our work includes:
+## Current Projects
 
-- **Whole Slide Image Analysis**: Creating efficient algorithms for analyzing gigapixel-resolution digital pathology images
-- **Tissue Classification**: Automated classification of tissue types and identification of abnormal regions
-- **Spatial Analysis**: Understanding spatial relationships and patterns within tissue samples
+Our team at VIBE Lab is working on:
 
-### 3. Cancer Detection and Classification
+1. **Automated Prostate Cancer Grading** - Developing AI systems for accurate Gleason scoring
+2. **Deep Learning for Cancer Detection** - Multi-modal approaches to improve diagnostic capabilities
+3. **Recurrent Neural Networks for Sequential Pathology** - Analyzing temporal patterns in tissue analysis
 
-Applications of AI in cancer diagnosis form a significant part of our research:
+## Collaboration
 
-- **Tumor Detection**: Identifying malignant lesions in histopathological images
-- **Grading and Stratification**: Automated cancer grading systems for prognostic assessment
-- **Biomarker Discovery**: Computational identification of prognostic and predictive biomarkers
+We collaborate with:
+- University of Liverpool, UK
+- Leading medical institutions worldwide
+- Industrial partners in healthcare AI
 
-### 4. Model Robustness and Domain Adaptation
+---
 
-Ensuring AI models work reliably in diverse clinical settings:
-
-- **Domain Adaptation**: Addressing differences between training data and real-world clinical data
-- **Model Validation**: Rigorous validation protocols across multiple datasets and institutions
-- **Uncertainty Quantification**: Developing methods to estimate model confidence and uncertainty
-
-### 5. Translational Pathology
-
-Bridging the gap between research and clinical practice:
-
-- **Clinical Integration**: Designing AI systems that integrate seamlessly into clinical workflows
-- **Interpretability**: Creating explainable AI models that pathologists can trust and understand
-- **Clinical Validation**: Conducting prospective studies to validate diagnostic accuracy
-
-## Recent Projects
-
-{% if site.projects.size > 0 %}
-
-<div class="projects-grid">
-{% for project in site.projects | sort: "date" | reverse %}
-  <div class="project-item">
-    <h3>{{ project.title }}</h3>
-    {% if project.tags %}
-    <div class="tags">
-      {% for tag in project.tags %}
-      <span class="tag">{{ tag }}</span>
-      {% endfor %}
-    </div>
-    {% endif %}
-    <p>{{ project.excerpt }}</p>
-    {% if project.url %}
-    <a href="{{ project.url | relative_url }}">Learn more →</a>
-    {% endif %}
-  </div>
-{% endfor %}
-</div>
-
-{% endif %}
-
-## Active Collaborations
-
-We actively collaborate with:
-
-- Clinical partners at [Hospital/Medical Center Names]
-- Research groups at [University Names]
-- Industry partners including [Company Names]
-
-## Funding
-
-Our research is supported by:
-
-- [Funding Agency] - [Grant Title/Number]
-- [Funding Agency] - [Grant Title/Number]
-- [Funding Agency] - [Grant Title/Number]
-
-## Research Methodology
-
-We employ rigorous research methodologies including:
-
-1. **Data Collection**: Curating large-scale datasets of histopathological images with expert annotations
-2. **Model Development**: Implementing state-of-the-art deep learning architectures
-3. **Validation and Evaluation**: Comprehensive evaluation using multiple metrics and test sets
-4. **External Validation**: Testing on independent datasets from different institutions
+**Interested in collaboration or joining our lab?** [Contact me →](mailto:jingxin.liu@xjtlu.edu.cn)
 5. **Clinical Trials**: Prospective studies to validate clinical utility
 
 ## Future Directions
