@@ -30,7 +30,7 @@
   </nav>
 
   <!-- Main Content -->
-  <main>
+  <main {% if page.layout != 'home' %}class="content-layout"{% endif %}>
     <!-- Sidebar (for index page) -->
     {% if page.layout == 'home' %}
       <aside class="sidebar">
