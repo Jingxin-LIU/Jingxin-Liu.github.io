@@ -5,11 +5,7 @@ url: "https://Jingxin-Liu.github.io"
 title: "Jingxin Liu"
 description: "Associate Professor | AI & Computational Pathology"
 author: "Jingxin Liu"
-email: "your-email@university.edu"
-
-# Theme settings
-theme: jekyll-theme-minimal
-skin: dark
+email: "jingxin.liu@xjtlu.edu.cn"
 
 # Build settings
 markdown: kramdown
@@ -39,17 +35,17 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      layout: "default"
   - scope:
       path: ""
       type: "publications"
     values:
-      layout: "post"
+      layout: "default"
   - scope:
       path: ""
       type: "projects"
     values:
-      layout: "post"
+      layout: "default"
 
 # SEO settings
 social:

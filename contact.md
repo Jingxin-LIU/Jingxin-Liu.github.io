@@ -1,20 +1,58 @@
 ---
 layout: default
-title: About
+title: Contact
+show_map: false
 ---
 
-# Contact
+# Get in Touch
 
-**Email:** [jingxin.liu@xjtlu.edu.cn](mailto:jingxin.liu@xjtlu.edu.cn)  
-**Web:** [https://Jingxin-Liu.github.io](https://Jingxin-Liu.github.io)  
-**GitHub:** [@Jingxin-Liu](https://github.com/Jingxin-Liu)  
-**ORCID:** [0000-0001-XXXX-XXXX](https://orcid.org/0000-0001-XXXX-XXXX)  
+I'm always interested in discussing research collaborations, student opportunities, and potential partnerships.
 
----
+## Contact Information
 
-## About VIBE Lab
+<div style="display: grid; gap: 1.5rem; margin: 2rem 0;">
 
-For inquiries about **PhD positions** or **research collaborations**, please visit the [VIBE Lab website](https://vibe-lab.example.com) or contact me directly.
+<div style="background-color: #f0f4f8; padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary-color);">
+  <h3 style="margin: 0 0 0.5rem 0;">📧 Email</h3>
+  <p style="margin: 0;"><a href="mailto:jingxin.liu@xjtlu.edu.cn">jingxin.liu@xjtlu.edu.cn</a></p>
+</div>
+
+<div style="background-color: #f0f4f8; padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary-color);">
+  <h3 style="margin: 0 0 0.5rem 0;">🔬 VIBE Lab</h3>
+  <p style="margin: 0;"><a href="https://vibe-lab.example.com" target="_blank">Vision Intelligence & Biomedical Exploration Lab</a></p>
+</div>
+
+<div style="background-color: #f0f4f8; padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary-color);">
+  <h3 style="margin: 0 0 0.5rem 0;">🌐 Online</h3>
+  <p style="margin: 0;">
+    <a href="https://github.com/Jingxin-Liu" target="_blank">GitHub</a> | 
+    <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a> | 
+    <a href="https://orcid.org/0000-0001-XXXX-XXXX" target="_blank">ORCID</a>
+  </p>
+</div>
+
+</div>
+
+## Opportunities
+
+### For Students
+
+Interested in joining our research group? We're looking for:
+- **PhD Students**: Scholarships available for strong candidates
+- **Research Interns**: Placements for undergraduate and master's students
+- **Postdoctoral Researchers**: Multiple positions in computational pathology and medical AI
+
+### For Collaborators
+
+We actively seek collaborations with:
+- Academic institutions
+- Medical centers and hospitals
+- Industry partners in healthcare and medical technology
+- Other research groups working on related topics
+
+## How to Reach Me
+
+Feel free to contact me via [email](mailto:jingxin.liu@xjtlu.edu.cn) to discuss potential opportunities or collaborations. I typically respond within 2-3 business days.
 - Proposed research scope and timeline
 
 ### For Graduate Student Inquiries

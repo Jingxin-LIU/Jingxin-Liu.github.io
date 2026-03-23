@@ -1,11 +1,12 @@
 ---
 layout: default
 title: CV
+show_map: false
 ---
 
 # Curriculum Vitae
 
-For a detailed CV, please contact me directly at [jingxin.liu@xjtlu.edu.cn](mailto:jingxin.liu@xjtlu.edu.cn).
+For a detailed CV, please contact me directly.
 
 ## Quick Summary
 
@@ -13,13 +14,20 @@ For a detailed CV, please contact me directly at [jingxin.liu@xjtlu.edu.cn](mail
 - **Ph.D.** in Computer Science, University of Nottingham (2018)
 - **M.S.** in Computer Vision, University of Edinburgh (2013)
 
-## Research Areas
+## Research Focus
 
 - Digital Pathology & Computational Pathology
 - Medical Image Analysis
 - Computer Vision & Machine Learning
 
-See [Publications]({{ '/publications.html' | relative_url }}) and [Research]({{ '/research.html' | relative_url }}) for more information.
+## Links
+
+- [Download Full CV (PDF)](mailto:jingxin.liu@xjtlu.edu.cn?subject=CV%20Request)
+- [Google Scholar Profile](https://scholar.google.com/citations?user=YOUR_ID)
+- [ORCID](https://orcid.org/0000-0001-XXXX-XXXX)
+- [GitHub](https://github.com/Jingxin-Liu)
+
+For more information about my background, research, and experience, please see the [About](/about.html) and [Research](/research.html) pages, or [contact me](mailto:jingxin.liu@xjtlu.edu.cn) directly.
 
 ### Graduate Students Supervised
 

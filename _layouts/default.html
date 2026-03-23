@@ -9,7 +9,7 @@
     <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}">
     <meta name="author" content="{{ site.author }}">
     
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/modern-style.css' | relative_url }}">
     
     <!-- Leaflet Map Library for visitor geolocation -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
@@ -22,16 +22,11 @@
     {% endif %}
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p class="header-subtitle">{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.avatar_url %}
-          <img src="{{ site.github.avatar_url }}" alt="Profile Picture" class="profile-pic">
-        {% endif %}
-
-        <ul class="header-nav">
+    <!-- Navigation -->
+    <nav>
+      <div class="navbar-content">
+        <a href="{{ '/' | relative_url }}" class="brand">{{ site.title }}</a>
+        <ul>
           {% for page in site.header_pages %}
             {% assign page_obj = site.pages | where: "path", page | first %}
             {% if page_obj %}
@@ -42,37 +37,43 @@
             <li><a href="{{ site.vibe_lab.url }}" target="_blank">VIBE Lab</a></li>
           {% endif %}
         </ul>
+      </div>
+    </nav>
 
-        {% if site.data.social_links %}
-          <div class="social-links">
-            {% for link in site.data.social_links %}
-              <a href="{{ link.url }}" title="{{ link.label }}">{{ link.label }}</a>
-            {% endfor %}
-          </div>
-        {% endif %}
-      </header>
+    <!-- Main Content -->
+    <main>
+      {{ content }}
 
-      <section>
-        {{ content }}
-      </section>
+      <!-- Visitor Map Section -->
+      {% if page.show_map != false %}
+      <div id="visitor-map-container">
+        <h3>🌍 Visitor Locations</h3>
+        <div id="visitor-map" style="width: 100%; height: 300px; border-radius: 8px;"></div>
+      </div>
+      {% endif %}
+    </main>
 
-      <footer>
-        <!-- Visitor Map Section -->
-        <hr style="margin-top: 40px; opacity: 0.3;">
-        
-        <div id="visitor-map-container" style="margin: 20px 0;">
-          <p><small><strong>Visitor Map:</strong></small></p>
-          <div id="visitor-map" style="width: 100%; height: 250px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 10px;"></div>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <ul class="footer-links">
+            {% if site.data.social_links %}
+              {% for link in site.data.social_links %}
+              <li><a href="{{ link.url }}" title="{{ link.label }}">{{ link.label }}</a></li>
+              {% endfor %}
+            {% endif %}
+          </ul>
         </div>
-
-        <hr style="margin-bottom: 20px; opacity: 0.3;">
         
-        <p><small>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</small></p>
-        <p><small>Theme: <a href="https://github.com/pages-themes/minimal">Minimal</a> (Modified for Academic Profile)</small></p>
-      </footer>
-      
-      <!-- Visitor Tracking Script -->
-      <script src="{{ '/assets/js/visitor-tracker.js' | relative_url }}"></script>
-    </div>
+        <div class="copyright">
+          <p>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</p>
+          <p style="font-size: 0.8rem; margin-top: 0.5rem;">Powered by <a href="https://jekyllrb.com/" style="color: inherit;">Jekyll</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Visitor Tracking Script -->
+    <script src="{{ '/assets/js/visitor-tracker.js' | relative_url }}"></script>
   </body>
 </html>
