@@ -10,6 +10,11 @@
     <meta name="author" content="{{ site.author }}">
     
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+    <!-- Leaflet Map Library for visitor geolocation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    
     {% seo %}
 
     {% if site.github.is_project_page %}
@@ -33,6 +38,9 @@
               <li><a href="{{ page_obj.url | relative_url }}">{{ page_obj.title }}</a></li>
             {% endif %}
           {% endfor %}
+          {% if site.vibe_lab %}
+            <li><a href="{{ site.vibe_lab.url }}" target="_blank">VIBE Lab</a></li>
+          {% endif %}
         </ul>
 
         {% if site.data.social_links %}
@@ -49,9 +57,22 @@
       </section>
 
       <footer>
+        <!-- Visitor Map Section -->
+        <hr style="margin-top: 40px; opacity: 0.3;">
+        
+        <div id="visitor-map-container" style="margin: 20px 0;">
+          <p><small><strong>Visitor Map:</strong></small></p>
+          <div id="visitor-map" style="width: 100%; height: 250px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 10px;"></div>
+        </div>
+
+        <hr style="margin-bottom: 20px; opacity: 0.3;">
+        
         <p><small>&copy; {{ site.time | date: '%Y' }} {{ site.author }}. All rights reserved.</small></p>
         <p><small>Theme: <a href="https://github.com/pages-themes/minimal">Minimal</a> (Modified for Academic Profile)</small></p>
       </footer>
+      
+      <!-- Visitor Tracking Script -->
+      <script src="{{ '/assets/js/visitor-tracker.js' | relative_url }}"></script>
     </div>
   </body>
 </html>

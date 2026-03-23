@@ -1,53 +1,20 @@
 ---
 layout: default
-title: Contact
+title: About
 ---
 
-# Contact Information
+# Contact
 
-I am always interested in discussing research collaborations, student opportunities, and questions about my work.
-
-## Direct Contact
-
-**Email:** your-email@university.edu
-
-**Office:** 
-[Building Name], Room [Number]  
-[Department Name]  
-[University Name]  
-[Street Address]  
-[City], [State/Province] [ZIP Code]  
-[Country]
-
-**Phone:** +1 (XXX) XXX-XXXX
-
-**Office Hours:** By appointment (email to schedule)
+**Email:** [jingxin.liu@xjtlu.edu.cn](mailto:jingxin.liu@xjtlu.edu.cn)  
+**Web:** [https://Jingxin-Liu.github.io](https://Jingxin-Liu.github.io)  
+**GitHub:** [@Jingxin-Liu](https://github.com/Jingxin-Liu)  
+**ORCID:** [0000-0001-XXXX-XXXX](https://orcid.org/0000-0001-XXXX-XXXX)  
 
 ---
 
-## Online Presence
+## About VIBE Lab
 
-- **GitHub:** [@Jingxin-Liu](https://github.com/Jingxin-Liu)
-- **Google Scholar:** [Profile Link](https://scholar.google.com/citations?user=YOUR_ID)
-- **ORCID:** [0000-0001-XXXX-XXXX](https://orcid.org/0000-0001-XXXX-XXXX)
-- **ResearchGate:** [Profile Link](https://www.researchgate.net/profile/Jingxin-Liu)
-- **LinkedIn:** [Profile Link](https://linkedin.com/in/your-profile)
-
----
-
-## Other Channels
-
-- **Lab Website:** [Link to group website if available]
-- **Department Website:** [Department Link](https://your-university.edu/department)
-
----
-
-## Specific Inquiries
-
-### For Collaboration Inquiries
-If you are interested in collaborating on research projects, please include:
-- Brief description of the collaboration opportunity
-- Your background and relevant experience
+For inquiries about **PhD positions** or **research collaborations**, please visit the [VIBE Lab website](https://vibe-lab.example.com) or contact me directly.
 - Proposed research scope and timeline
 
 ### For Graduate Student Inquiries

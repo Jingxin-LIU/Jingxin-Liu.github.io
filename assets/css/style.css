@@ -343,3 +343,40 @@ footer small {
     font-size: 12px;
   }
 }
+
+/* Visitor Map Section */
+#visitor-map-container {
+  background-color: var(--light-bg);
+  padding: 15px;
+  border-left: 4px solid var(--secondary-color);
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+#visitor-map-container strong {
+  color: var(--primary-color);
+}
+
+#visitor-map {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+/* Leaflet map adjustments */
+.leaflet-container {
+  background: #fff;
+}
+
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-shadow {
+  border-radius: 4px;
+}
+
+/* Responsive map */
+@media (max-width: 768px) {
+  #visitor-map {
+    height: 200px !important;
+  }
+}

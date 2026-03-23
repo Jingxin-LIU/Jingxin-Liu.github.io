@@ -63,7 +63,9 @@ social:
 header_pages:
   - about.md
   - research.md
-  - publications.md
-  - projects.md
-  - cv.md
-  - contact.md
+  - blog.md
+
+# VIBE Lab
+vibe_lab:
+  name: "VIBE Lab"
+  url: "https://vibe-lab.example.com"

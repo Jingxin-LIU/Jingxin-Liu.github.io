@@ -1,102 +1,20 @@
 ---
 layout: default
-title: Projects
+title: Research
 ---
 
-# Projects
+# Research
 
-## Active Research Projects
+My research focuses on the intersection of **Digital Pathology**, **Computational Pathology**, and **Computer Vision**. Key areas include:
 
-{% if site.projects.size > 0 %}
+## Research Interests
 
-{% assign featured = site.projects | where: "featured", true | sort: "date" | reverse %}
-{% if featured.size > 0 %}
+- **Digital Pathology**: Whole slide image analysis and automated tissue analysis
+- **Computational Pathology**: AI-driven diagnostic tools for cancer detection and classification
+- **Medical Image Analysis**: Machine learning for histopathological image processing
+- **Computer Vision**: Deep learning architectures for medical imaging applications
 
-### Featured Projects
-
-{% for project in featured %}
-<div class="project-item">
-  <h3>{{ project.title }}</h3>
-  <p>{{ project.description }}</p>
-  
-  {% if project.funding %}
-  <p><strong>Funding:</strong> {{ project.funding }}</p>
-  {% endif %}
-  
-  {% if project.collaborators %}
-  <p><strong>Collaborators:</strong> {{ project.collaborators }}</p>
-  {% endif %}
-  
-  {% if project.tags %}
-  <div class="tags">
-    {% for tag in project.tags %}
-    <span class="tag">{{ tag }}</span>
-    {% endfor %}
-  </div>
-  {% endif %}
-  
-  {% if project.url %}
-  <p><a href="{{ project.url | relative_url }}">View Project Details →</a></p>
-  {% endif %}
-</div>
-{% endfor %}
-
-{% endif %}
-
-### All Projects
-
-<table>
-<thead>
-  <tr>
-    <th>Project</th>
-    <th>Focus Area</th>
-    <th>Status</th>
-    <th>Year</th>
-  </tr>
-</thead>
-<tbody>
-  {% for project in site.projects | sort: "date" | reverse %}
-  <tr>
-    <td>
-      {% if project.url %}
-      <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-      {% else %}
-      {{ project.title }}
-      {% endif %}
-    </td>
-    <td>{{ project.focus_area }}</td>
-    <td>{{ project.status | default: "Active" }}</td>
-    <td>{{ project.date | date: "%Y" }}</td>
-  </tr>
-  {% endfor %}
-</tbody>
-</table>
-
-{% else %}
-
-<p><em>Project descriptions will be added soon.</em></p>
-
-{% endif %}
-
----
-
-## Project Categories
-
-### Artificial Intelligence & Machine Learning
-Research focused on developing novel deep learning architectures and training methodologies for medical image analysis.
-
-### Digital Pathology
-Projects dedicated to whole slide image analysis, tissue segmentation, and automated tumor identification.
-
-### Clinical Applications
-Applied research translating computational methods into clinical diagnostic systems and workflow optimization.
-
-### Fundamental Methodology
-Research on model robustness, domain adaptation, and interpretability in AI systems.
-
----
-
-## How to Get Involved
+For more details, visit the [VIBE Lab](https://vibe-lab.example.com) website.
 
 If you are interested in joining our research group or collaborating on projects:
 
