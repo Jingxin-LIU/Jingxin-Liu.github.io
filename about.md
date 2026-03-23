@@ -3,41 +3,38 @@ layout: default
 title: About
 ---
 
-# About Me
-
-I am an **Associate Professor** in the School of AI and Advanced Computing at **Xi'an Jiaotong-Liverpool University**. My research focuses on the intersection of **Digital Pathology**, **Computational Pathology**, **Medical Image Analysis**, and **Computer Vision**.
-
 ## Background
 
-- **Ph.D.** in Computer Science, University of Nottingham, 2018
-  - Advisor: Prof. Guoping Qiu
-- **M.S.** in Computer Vision, University of Edinburgh, 2013
+I received my Ph.D. in Computer Science from [University of Nottingham](https://www.nottingham.ac.uk/) in 2018, under the supervision of Prof. Guoping Qiu. Before that, I completed my M.S. in Computer Vision from [University of Edinburgh](https://www.ed.ac.uk/) in 2013.
 
-## Research Interests
+## Current Position
 
-- **Digital Pathology**: Automated analysis of histopathological images
-- **Computational Pathology**: AI-driven cancer detection and classification
-- **Medical Image Analysis**: Deep learning for medical imaging
-- **Computer Vision**: Novel architectures and algorithms
+**Associate Professor**, School of AI and Advanced Computing  
+[Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/)
+
+At XJTLU, I teach and conduct research in:
+- Artificial Intelligence & Machine Learning
+- Computer Vision
+- Deep Learning for Medical Imaging
+
+## Research Philosophy
+
+My research is driven by the goal of developing practical AI solutions for healthcare. I believe in bridging the gap between cutting-edge machine learning research and real-world clinical applications. My work focuses on three core areas:
+
+1. **Digital Pathology** - Making sense of gigapixel histopathological images
+2. **Computational Pathology** - Building intelligent diagnostic support systems
+3. **Computer Vision** - Developing novel algorithms for medical image analysis
+
+## International Collaborations
+
+I actively collaborate with researchers and clinicians at:
+- University of Liverpool, UK
+- Leading medical centers worldwide
+- Industry partners in healthcare innovation
 
 ## VIBE Lab
 
-I am founding and leading the **Vision Intelligence & Biomedical Exploration Lab (VIBE Lab)** at XJTLU. We are dedicated to advancing research in:
-
-- Digital pathology and computational pathology
-- Medical image analysis and computer vision
-- AI applications in healthcare
-
-**[Visit VIBE Lab →](https://vibe-lab.example.com)**
-
-## Recruiting
-
-We are actively recruiting **PhD students** and **postdoctoral researchers**. Interested candidates will:
-- Earn a PhD degree from the University of Liverpool, UK
-- Work on cutting-edge research in medical AI
-- Have access to state-of-the-art research facilities
-
-**[Contact me to learn more →](mailto:jingxin.liu@xjtlu.edu.cn)**
+I founded the **Vision Intelligence & Biomedical Exploration (VIBE) Lab** at XJTLU to advance research in computational pathology and medical AI. We are always looking for passionate students and researchers.
 
 I am committed to educating the next generation of researchers in AI and computational pathology. I teach courses including:
 

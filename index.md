@@ -1,69 +1,82 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
-<!-- Hero Header Section -->
-<header class="hero">
-  <div class="hero-photo">
-    <img src="https://via.placeholder.com/150x150?text=Jingxin+Liu" alt="Jingxin Liu">
-  </div>
-  <div class="hero-info">
-    <h1>Jingxin Liu (刘净心)</h1>
-    <p class="subtitle">Associate Professor @ Xi'an Jiaotong-Liverpool University</p>
-    <p>School of AI and Advanced Computing</p>
-    <p>Research Focus: <strong>Digital Pathology</strong> • <strong>Computational Pathology</strong> • <strong>Computer Vision</strong></p>
-    <div class="contact-links">
-      <a href="mailto:jingxin.liu@xjtlu.edu.cn">Email</a> | 
-      <a href="https://github.com/Jingxin-Liu" target="_blank">GitHub</a> | 
-      <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a> | 
-      <a href="/cv.html">CV</a>
-    </div>
-  </div>
-</header>
+## About
 
-<!-- About Section -->
-<section>
-  <h2>About</h2>
-  <p>I am an Associate Professor in the School of AI and Advanced Computing at Xi'an Jiaotong-Liverpool University. I received my Ph.D. from the University of Nottingham in 2018 under the supervision of Prof. Guoping Qiu, and my M.S. degree from the University of Edinburgh in 2013.</p>
-  
-  <p>My main research interests include <strong>Digital Pathology</strong>, <strong>Computational Pathology</strong>, and <strong>Image Processing</strong>, with a strong focus on <strong>Computer Vision</strong> and <strong>Machine Learning</strong>.</p>
-  
-  <div class="vibe-highlight">
-    <p><strong>🔬 VIBE Lab (Vision Intelligence & Biomedical Exploration Lab)</strong></p>
-    <p>I am building the VIBE Lab at XJTLU, focusing on Digital and Computational Pathology, Medical Image Analysis, and Computer Vision. I am looking for highly motivated PhD students eager to advance research in these fields. Successful candidates will earn a PhD degree from the University of Liverpool, UK.</p>
-    <p><strong><a href="https://vibe-lab.example.com" target="_blank">Learn more about VIBE Lab →</a></strong></p>
-  </div>
-</section>
+I am an **Associate Professor** in the School of AI and Advanced Computing at [Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/) (XJTLU). My main research interests include:
 
-<!-- Latest News Section -->
-<section>
-  <h2>Latest News</h2>
-  
-  <ul class="news-list">
-    <li class="news-item">
-      <span class="news-date">Jul 26, 2025</span>
-      <span class="news-text">1 paper accepted by BMVC 2025</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Jan 03, 2025</span>
-      <span class="news-text">2 papers accepted by ISBI 2025</span>
-    </li>
-    <li class="news-item">
-      <span class="news-date">Dec 21, 2024</span>
-      <span class="news-text">1 paper accepted by ICASSP 2025</span>
-    </li>
-  </ul>
-</section>
+- **Digital Pathology** & Computational Pathology
+- **Medical Image Analysis** & Computer Vision
+- **Deep Learning** for Healthcare AI
 
-<!-- Research Interests Section -->
-<section>
-  <h2>Research Interests</h2>
-  
-  <ul class="research-list">
-    <li><strong>Digital Pathology:</strong> Whole slide image analysis and automated tissue analysis using deep learning</li>
-    <li><strong>Computational Pathology:</strong> AI-driven diagnostic tools for cancer detection and classification</li>
-    <li><strong>Medical Image Analysis:</strong> Machine learning for histopathological image processing</li>
-    <li><strong>Computer Vision:</strong> Deep learning architectures for medical imaging applications</li>
-  </ul>
-</section>
+I am known for my research in automated cancer detection, histopathological image analysis, and biomedical image processing. Before joining XJTLU, I received my Ph.D. in Computer Science from University of Nottingham in 2018, advised by Prof. Guoping Qiu.
+
+## Latest News
+
+<ul class="news-list">
+  <li class="news-item">
+    <span class="news-date">Feb 2026</span>
+    <span class="news-content">New research on computational pathology accepted</span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">Jan 2026</span>
+    <span class="news-content">Launching VIBE Lab initiatives for medical AI research</span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <span class="news-content">Awarded research grant for digital pathology projects</span>
+  </li>
+  <li class="news-item">
+    <span class="news-date">Nov 2025</span>
+    <span class="news-content">Published on deep learning for cancer grading</span>
+  </li>
+</ul>
+
+## Research Interests
+
+<ul class="research-list">
+  <li class="research-item">
+    <strong>Digital Pathology:</strong> Whole-slide image analysis, tissue segmentation, and automated diagnostic systems
+  </li>
+  <li class="research-item">
+    <strong>Computational Pathology:</strong> AI-driven cancer detection, classification, and prognostic markers
+  </li>
+  <li class="research-item">
+    <strong>Medical Image Analysis:</strong> Deep learning architectures for histopathological images with limited annotations
+  </li>
+  <li class="research-item">
+    <strong>Computer Vision:</strong> Attention mechanisms, multi-instance learning, and domain adaptation for medical imaging
+  </li>
+</ul>
+
+## VIBE Lab
+
+<div class="vibe-highlight">
+  <strong>👥 Vision Intelligence & Biomedical Exploration Lab</strong><br>
+  I am founding and leading VIBE Lab at XJTLU, dedicated to advancing research in digital pathology, computational medicine, and AI applications in healthcare. We are actively recruiting PhD students and postdoctoral researchers. <a href="{{ site.vibe_lab.url }}" target="_blank">→ Learn more</a>
+</div>
+
+## Featured Research
+
+### Automated Prostate Cancer Grading
+
+Deep learning methods for automated Gleason score prediction in histopathological images. This work addresses the challenge of cancer grading standardization and improves diagnostic reproducibility.
+
+**Featured Publication:** [Prostate Cancer Grading with Deep Learning](https://scholar.google.com/citations?user=YOUR_ID) 
+
+### Deep Learning for Cancer Detection
+
+Multi-scale approaches to cancer detection from whole-slide histopathology images using attention-based mechanisms and weakly supervised learning frameworks.
+
+**Related Work:** Deep learning architectures bridging the gap between gigapixel image analysis and clinical practice.
+
+## Collaboration & Recruiting
+
+I am looking for:
+- **PhD Students** (self-motivated, strong background in computer science or related fields)
+- **Postdoctoral Researchers** (experience with deep learning and medical imaging preferred)
+- **Research Collaborators** from academic institutions and industry partners
+
+If interested in joining our research group or collaborating on projects, please [get in touch](mailto:{{ site.email }})

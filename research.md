@@ -3,53 +3,52 @@ layout: default
 title: Research
 ---
 
-# Research Interests
+## Primary Research Areas
 
-## Primary Focus Areas
+### Digital Pathology
 
-**Digital Pathology & Computational Pathology**
-- Automated histopathological image analysis
-- Deep learning for digital slide interpretation
-- Diagnostic accuracy improvement through AI
+Digital pathology represents a paradigm shift in how we analyze tissue samples. My research focuses on:
 
-**Medical Image Analysis**
-- Feature extraction from medical images
-- Classification and segmentation algorithms
-- Multi-scale analysis approaches
+- **Whole-Slide Image Analysis**: Algorithms and architectures for gigapixel-resolution image interpretation
+- **Tissue Classification**: Automated identification and segmentation of tissue types and pathological regions
+- **Diagnostic Support**: Creating AI systems that enhance pathologist productivity and reduce errors
 
-**Computer Vision**
-- Convolutional neural networks for medical imaging
-- Transfer learning applications
-- Novel architecture design for pathology images
+### Computational Pathology
 
-## Key Research Topics
+Bridging AI and clinical pathology:
 
-- Cancer detection and grading from histopathology
-- Tissue classification and characterization
-- Whole-slide image analysis at scale
-- Attention mechanisms for interpretability
-- Domain adaptation for medical imaging
-- Weakly supervised learning
-- Multi-instance learning frameworks
+- **Cancer Detection & Grading**: Automated systems for cancer identification and prognostic assessment
+- **Biomarker Discovery**: Computational methods for identifying clinically relevant markers
+- **Clinical Integration**: Designing AI tools that integrate seamlessly into clinical workflows
 
-## Current Projects
+### Medical Image Analysis
 
-Our team at VIBE Lab is working on:
+Developing robust deep learning approaches:
 
-1. **Automated Prostate Cancer Grading** - Developing AI systems for accurate Gleason scoring
-2. **Deep Learning for Cancer Detection** - Multi-modal approaches to improve diagnostic capabilities
-3. **Recurrent Neural Networks for Sequential Pathology** - Analyzing temporal patterns in tissue analysis
+- **Limited Annotation Learning**: Techniques that work with sparse annotations in large image datasets
+- **Multi-scale Analysis**: Approaches that leverage information at different image resolutions
+- **Domain Adaptation**: Methods to transfer models across different data sources and institutions
 
-## Collaboration
+## Featured Projects
 
-We collaborate with:
-- University of Liverpool, UK
-- Leading medical institutions worldwide
-- Industrial partners in healthcare AI
+### Automated Prostate Cancer Grading
 
----
+Developing deep learning methods for automated Gleason score prediction. This project addresses standardization challenges in cancer grading and improves interobserver reproducibility.
 
-**Interested in collaboration or joining our lab?** [Contact me →](mailto:jingxin.liu@xjtlu.edu.cn)
+### Deep Learning for Whole-Slide Image Analysis
+
+Building attention-based architectures for analyzing complete histopathological slides, combining global context with local detail analysis.
+
+### Multi-Instance Learning for Pathology
+
+Exploring weakly supervised learning frameworks that can learn from limited labels in large-scale medical image datasets.
+
+## Interested in Our Work?
+
+**Collaboration opportunities:** Academic partnerships, industry collaborations, and clinical validation studies  
+**Student recruitment:** PhD positions and postdoctoral fellowships available
+
+[Get in touch →](mailto:jingxin.liu@xjtlu.edu.cn)
 5. **Clinical Trials**: Prospective studies to validate clinical utility
 
 ## Future Directions

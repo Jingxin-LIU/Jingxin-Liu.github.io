@@ -3,9 +3,17 @@
 # Site settings
 url: "https://Jingxin-Liu.github.io"
 title: "Jingxin Liu"
-description: "Associate Professor | AI & Computational Pathology"
+description: "Associate Professor | Digital Pathology & Computational Medicine"
 author: "Jingxin Liu"
+author_title: "Associate Professor"
+author_institution: "Xi'an Jiaotong-Liverpool University"
 email: "jingxin.liu@xjtlu.edu.cn"
+profile_image: "/assets/images/profile.jpg"
+
+# VIBE Lab
+vibe_lab:
+  name: "VIBE Lab"
+  url: "https://vibe-lab.example.com"
 
 # Build settings
 markdown: kramdown
@@ -36,6 +44,10 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  - scope:
+      path: "index.md"
+    values:
+      layout: "home"
   - scope:
       path: ""
       type: "publications"

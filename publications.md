@@ -3,20 +3,31 @@ layout: default
 title: Publications
 ---
 
-# Publications
+## Publications
 
-My research focuses on **Digital Pathology**, **Computational Pathology**, **Medical Image Analysis**, and **Computer Vision**.
+My research has been published in leading conferences and journals in computer vision, medical imaging, and AI. Below are key repositories for my work:
 
-## Find My Publications
+### Official Profiles
 
-- **[Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID)** - Complete list with citation metrics
-- **[ORCID](https://orcid.org/0000-0001-XXXX-XXXX)** - Official research profile
-- **[ResearchGate](https://www.researchgate.net/profile/Jingxin-Liu)** - Download publications
+📊 **[Google Scholar Profile](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID)**
 
-## Research Focus
+Complete publication list with citation metrics, h-index, and impact tracking.
 
-My work spans:
-- Digital pathology and whole-slide image analysis
-- Cancer detection and computational pathology
-- Deep learning for medical imaging
-- Computer vision and AI interpretability
+🔗 **[ORCID](https://orcid.org/0000-0001-XXXX-XXXX)**
+
+Official Open Researcher and Contributor ID for verified publication record.
+
+📝 **[ResearchGate](https://www.researchgate.net/profile/Jingxin-Liu)**
+
+Access full-text publications and connect with other researchers.
+
+💻 **[GitHub](https://github.com/Jingxin-Liu)**
+
+Open-source implementations and codes for published research.
+
+## Research Areas
+
+- **Digital & Computational Pathology**: Whole-slide image analysis, cancer detection and grading
+- **Medical Image Analysis**: Deep learning for histopathology with limited annotations
+- **Computer Vision**: Attention mechanisms, multi-instance learning, domain adaptation
+- **AI for Healthcare**: Interpretability and clinical integration of machine learning models

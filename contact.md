@@ -3,35 +3,47 @@ layout: default
 title: Contact
 ---
 
-# Get in Touch
-
-I'm interested in discussing research collaborations, student opportunities, and partnerships.
-
 ## Contact
+
+Feel free to reach out for collaborations, inquiries, or to discuss research opportunities.
 
 **Email:** [jingxin.liu@xjtlu.edu.cn](mailto:jingxin.liu@xjtlu.edu.cn)
 
-**Lab:** [VIBE Lab](https://vibe-lab.example.com) - Vision Intelligence & Biomedical Exploration Lab
-
-**Online:**
-- [GitHub](https://github.com/Jingxin-Liu)
-- [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
-- [ORCID](https://orcid.org/0000-0001-XXXX-XXXX)
+**Office:**  
+School of AI and Advanced Computing  
+Xi'an Jiaotong-Liverpool University  
+Suzhou, China
 
 ## Opportunities
 
-**For PhD Students & Postdocs**
+### PhD Students & Postdoctoral Researchers
 
-We are recruiting highly motivated researchers for:
-- PhD positions with Nottingham-Liverpool scholarships
-- Postdoctoral fellowships in computational pathology
-- Research internships
+We are actively recruiting:
 
-**For Collaborators**
+- **PhD Students** (fully funded positions available)
+  - Degree awarded by University of Liverpool, UK
+  - Research focus on digital pathology and medical AI
+  - Strong background in computer science or related fields
 
-We actively collaborate with academic institutions, medical centers, and industry partners.
+- **Postdoctoral Researchers**
+  - Experience with deep learning and medical imaging preferred
+  - Opportunity to lead independent research projects
 
-**[Contact me to discuss opportunities →](mailto:jingxin.liu@xjtlu.edu.cn)**
+- **Research Interns**
+  - All levels welcome (undergraduate to master's students)
+  - Flexible time commitment
+
+### Collaboration
+
+If you're interested in:
+- Research partnerships
+- Data sharing agreements
+- Joint publications
+- Industry collaborations
+
+Please get in touch and we can explore possibilities together.
+
+**[Send an email →](mailto:jingxin.liu@xjtlu.edu.cn)**
 
 ## Related Links
 

@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title | default: site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.author }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% seo %}
@@ -29,31 +29,33 @@
     </div>
   </nav>
 
-  <!-- Main Content -->
+  <!-- Main Content with Sidebar -->
   <main>
-    <!-- Sidebar (for index page) -->
-    {% if page.layout == 'home' %}
-      <aside class="sidebar">
-        <div class="sidebar-profile">
-          <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile">
-          <h2>{{ site.author }}</h2>
-          <div class="title">{{ site.author_title | default: 'Associate Professor' }}</div>
-          <div class="title">{{ site.author_institution | default: 'Xi\'an Jiaotong-Liverpool University' }}</div>
-          <div class="contact">
-            📧 <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </div>
-          <div class="sidebar-links">
-            {% if site.data.social_links %}
-              {% for link in site.data.social_links %}
-                <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>
-              {% endfor %}
-            {% endif %}
-          </div>
+    <!-- Sidebar - Left Column -->
+    <aside class="sidebar">
+      <div class="sidebar-profile">
+        {% if site.profile_image %}
+          <img src="{{ site.profile_image | relative_url }}" alt="Profile" loading="lazy">
+        {% else %}
+          <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile" loading="lazy">
+        {% endif %}
+        <h2>{{ site.author }}</h2>
+        <div class="title">{{ site.author_title | default: 'Associate Professor' }}</div>
+        <div class="title">{{ site.author_institution | default: 'Xi''an Jiaotong-Liverpool University' }}</div>
+        <div class="contact">
+          📧 <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         </div>
-      </aside>
-    {% endif %}
+        <div class="sidebar-links">
+          {% if site.data.social_links %}
+            {% for link in site.data.social_links %}
+              <a href="{{ link.url }}" target="_blank">{{ link.label }}</a>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </aside>
 
-    <!-- Main Content -->
+    <!-- Main Content - Right Column -->
     <div class="content">
       {{ content }}
     </div>
