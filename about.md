@@ -10,13 +10,8 @@ I received my Ph.D. in Computer Science from [University of Nottingham](https://
 ## Current Position
 
 **Associate Professor**, School of AI and Advanced Computing
+Programme Director of M.Sc in Artificial Intelligence
 
-[Xi'an Jiaotong-Liverpool University](https://www.xjtlu.edu.cn/)
-
-At XJTLU, I teach and conduct research in:
-- Artificial Intelligence & Machine Learning
-- Computer Vision
-- Deep Learning for Medical Imaging
 
 ## Research Philosophy
 
@@ -26,12 +21,6 @@ My research is driven by the goal of developing practical AI solutions for healt
 2. **Computational Pathology** - Building intelligent diagnostic support systems  
 3. **Computer Vision** - Developing novel algorithms for medical image analysis
 
-## International Collaborations
-
-I actively collaborate with researchers and clinicians at:
-- University of Liverpool, UK
-- Leading medical centers worldwide
-- Industry partners in healthcare innovation
 
 ## VIBE Lab
 
@@ -39,14 +28,11 @@ I founded the **Vision Intelligence & Biomedical Exploration (VIBE) Lab** at XJT
 
 I am committed to educating the next generation of researchers in AI and computational pathology. I teach courses including:
 
-- Artificial Intelligence in Medical Imaging
-- Computational Pathology Fundamentals
-- Machine Learning for Healthcare
-- Deep Learning Applications
+- Introduction to Neural Networks
+- Machine Learning
+- Signal and Image Processing
 
 ## Service
 
-- Member, [Conference/Association Name]
-- Editorial Board, [Journal Name]
-- Reviewer for [Multiple Journals]
-- [Committee or Other Service Roles]
+- Reviewer for MIA, TMI, MICCAI, ISBI ...
+
