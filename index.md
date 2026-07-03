@@ -37,7 +37,7 @@ Before joining XJTLU, I received my Ph.D. in Computer Science from University of
 ## VIBE Lab
 
 <div class="vibe-highlight">
-  <strong>👥 Vision Intelligence & Biomedical Exploration Lab</strong><br>
+  <strong>Vision Intelligence & Biomedical Exploration Lab</strong>
   I am founding and leading VIBE Lab at XJTLU, dedicated to advancing research in digital pathology, computational medicine, and AI applications in healthcare. We are actively recruiting PhD students. <a href="{{ site.vibe_lab.url }}" target="_blank">→ Learn more</a>
 </div>
 
@@ -46,6 +46,6 @@ Before joining XJTLU, I received my Ph.D. in Computer Science from University of
 
 I am looking for:
 - **PhD Students** (self-motivated, strong background in computer science or related fields)
-- **Research Collaborators** from academic institutions, medical Institutions and industry partners
+- **Research Collaborators** from academic institutions, medical institutions and industry partners
 
-If interested in joining our research group or collaborating on projects, please get in touch
+If interested in joining our research group or collaborating on projects, please get in touch.
