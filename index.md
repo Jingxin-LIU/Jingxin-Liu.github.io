@@ -12,6 +12,10 @@ Before joining XJTLU, I received my Ph.D. in Computer Science from University of
 
 <ul class="news-list">
   <li class="news-item">
+    <span class="news-date">Jul 2026</span>
+    <span class="news-content">1 paper published in LabMed Discovery</span>
+  </li>
+  <li class="news-item">
     <span class="news-date">Mar 2026</span>
     <span class="news-content">I will serve as a session chair for ISBI 2026</span>
   </li>

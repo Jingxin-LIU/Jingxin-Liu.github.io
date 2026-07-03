@@ -44,6 +44,6 @@ show_map: false
   - **Postdoctoral Researchers**: Multiple positions available for researchers with strong publication records
   - **Research Collaborators**: We actively seek collaborations with clinical partners and research institutions
 
-  **[Contact us →](mailto:jingxin.liu@xjtlu.edu.cn)** | **[Visit VIBE Lab →](https://vibe-lab.example.com)**
+  **[Contact us →](mailto:jingxin.liu@xjtlu.edu.cn)** | **[Visit VIBE Lab →](https://vibe-lab.github.io/)**
 
 </section>
